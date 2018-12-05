@@ -1,0 +1,29 @@
+[
+  {
+    "code": "EXAMPLE",
+    "issuer": "GBK3CBEMYWZS5PDITD63CS5L5IB6BDTPGIJWLWCUZND2HZ6W3CARDMHI",
+    "status": "test",
+    "display_decimals": "7",
+    "name": "Example token",
+    "desc": "Example token for testing purpose only.",
+    "conditions": "Issued for testing, not meant to be used on public network.",
+    "image": "https://via.placeholder.com/128",
+    "fixed_number": 1000000,
+    "is_unlimited": false
+  },
+  {
+    "code": "GOLD",
+    "issuer": "GBK3CBEMYWZS5PDITD63CS5L5IB6BDTPGIJWLWCUZND2HZ6W3CARDMHI",
+    "status": "test",
+    "display_decimals": "4",
+    "name": "Gold-backed sample token",
+    "desc": "Gold-backed sample token for testing purpose only.",
+    "conditions": "Issued for testing, not meant to be used on public network.",
+    "image": "https://via.placeholder.com/128",
+    "is_unlimited": true,
+    "is_asset_anchored": true,
+    "anchor_asset_type": "commodity",
+    "anchor_asset": "GOLD",
+    "redemption_instructions": "No redemption, the token is for testing purpose only."
+  }
+]
